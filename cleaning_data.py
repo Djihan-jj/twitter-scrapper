@@ -48,3 +48,5 @@ if __name__ == '__main__':
 
     for filename in glob.glob("data/raw/*.csv"):
         clean_data(filename[9:])
+
+    # print(list(used_chars))
